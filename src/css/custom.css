@@ -28,3 +28,21 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/* =========================
+   Footer
+========================= */
+
+.footer {
+  background-color: #111827 !important;
+  color: #ffffff;
+}
+
+.footer a {
+  color: #93c5fd;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
