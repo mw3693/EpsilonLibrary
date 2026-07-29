@@ -1,5 +1,6 @@
 import { Redirect } from '@docusaurus/router';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function Home() {
-  return <Redirect to="/EpsilonLibrary/docs/intro" />;
+  return <Redirect to={useBaseUrl('/EpsilonLibrary/docs/intro')} />;
 }
