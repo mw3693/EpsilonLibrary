@@ -1,20 +1,130 @@
+# ============================================
+# Docusaurus
+# ============================================
+
 # Dependencies
-/node_modules
+/node_modules/
 
-# Production
-/build
+# Build output
+/build/
+/.docusaurus/
 
-# Generated files
-.docusaurus
-.cache-loader
+# Caches
+.cache/
+.cache-loader/
 
-# Misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# ============================================
+# Environment variables
+# ============================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================
+# Logs
+# ============================================
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Package managers
+# (Keep lock files under version control)
+# ============================================
+
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# IDEs & Editors
+# ============================================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+
+# ============================================
+# Operating System Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ============================================
+# Obsidian
+# ============================================
+
+.obsidian/
+
+# ============================================
+# Temporary files
+# ============================================
+
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# ============================================
+# Coverage & Testing
+# ============================================
+
+coverage/
+.nyc_output/
+
+# Jest
+jest-html-reporters-*
+
+# ============================================
+# TypeScript
+# ============================================
+
+*.tsbuildinfo
+
+# ============================================
+# Archives
+# ============================================
+
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ============================================
+# Miscellaneous
+# ============================================
+
+*.pid
+*.seed
+
+# ============================================
+# Local configuration
+# ============================================
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
