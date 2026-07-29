@@ -69,19 +69,6 @@ const config: Config = {
         alt: 'Epsilon Library',
         src: 'img/logo.svg',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          label: 'Documentation',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/mw3693/EpsilonLibrary',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
     },
 
     footer: {
