@@ -19,6 +19,7 @@ const config: Config = {
   projectName: 'EpsilonLibrary',
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
@@ -31,12 +32,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: undefined,
         },
 
         blog: false,
-
-        pages: true,
 
         theme: {
           customCss: './src/css/custom.css',
@@ -52,7 +50,7 @@ const config: Config = {
         hashed: true,
         indexDocs: true,
         indexBlog: false,
-        docsRouteBasePath: '/',
+        docsRouteBasePath: '/docs',
         language: ['en'],
       },
     ],
@@ -67,12 +65,10 @@ const config: Config = {
 
     navbar: {
       title: 'Epsilon Library',
-
       logo: {
-        alt: 'Epsilon Library Logo',
+        alt: 'Epsilon Library',
         src: 'img/logo.svg',
       },
-
       items: [
         {
           type: 'docSidebar',
