@@ -72,7 +72,7 @@ const config: Config = {
     },
 
     footer: {
-      copyright: `Copyright © ${new Date().getFullYear()} Epsilon Library. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Epsilon Library.`,
     },
 
     prism: {
