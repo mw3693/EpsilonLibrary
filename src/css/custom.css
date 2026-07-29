@@ -35,7 +35,7 @@
 ========================= */
 
 .footer {
-  background-color: #303846 !important;
+  background-color: #0f172a !important;
   color: #ffffff;
 }
 
@@ -91,4 +91,23 @@
 
 .navbar-sidebar {
   background: #0f172a;
+}
+
+
+.theme-doc-sidebar-container {
+  background: #0f172a;
+}
+
+.menu__link {
+  color: #cbd5e1;
+}
+
+.menu__link:hover {
+  background: #1e293b;
+  color: white;
+}
+
+.menu__link--active {
+  background: #2563eb;
+  color: white;
 }
